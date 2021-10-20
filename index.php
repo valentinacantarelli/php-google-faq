@@ -48,16 +48,38 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Faq
-    
-    </title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Faq</title>
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <!-- css -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+
+        </header>
+        <!-- main -->
+        <main>
+            <div class="container">
+                <div>
+                    <?php foreach($faq as $domande ) { ?>
+                        <h3><?php echo $domande["domanda"]; ?></h3>
+                        <p class="risposte"><?php echo $domande["risposta"]; ?></p>
+                    <?php }?>
+                </div>
+            </div>
+
+        </main>
+        <!-- footer -->
+        <footer>
+
+        </footer>
+    </body>
 </html>
