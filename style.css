@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 14px; 
 }
 header{
     
@@ -40,7 +41,7 @@ a{
 }
 .risposte{
     font-size: 14px;    
-    line-height: 22px;
+    line-height: 30px;
 }
 .domanda{
     margin: 25px 0;
